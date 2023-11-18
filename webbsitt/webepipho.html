@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Photography</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header  {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color:  #FFA006;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 0.5em;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .welcome {
+            background-image: url('https://sociallysorted.com.au/wp-content/uploads/2012/10/intro.jpg');
+            background-size: 100%;
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .welcome:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .welcome h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .welcome p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+       
+        .caption {
+            text-align: center;
+            margin-top: -15px;
+            margin-bottom: 20px;
+            font-style: italic;
+            color: #666;
+        }
+
+        
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Epic Photography</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a class="active" href="portfolio.html">
+              Portfolio</a>
+        <a href="#">About</a>
+    </nav>
+            
+    <div class="welcome">
+        <h2>Welcome to Epic Photography</h2>
+        <p>Explore a world of captivating moments captured through the lens. Immerse yourself in the beauty of nature, the energy of city lights, and dramatic landscapes.</p>
+    </div>
+
+    </body>
+
+   <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-image: url('https://i.pinimg.com/originals/80/fa/03/80fa0356422136e366a8c6056809e65d.png');
+            color: #fff;
+            text-align: left;
+            padding: 1em;
+        }
+
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #FFF9EF;
+        }
+
+        .portfolio-item {
+            width: 300px;
+            margin: 15px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+
+        .caption {
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+
+        
+        }
+    </style>
+
+<body>
+
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <img src="https://st2.depositphotos.com/7242826/12209/i/950/depositphotos_122099816-stock-photo-collage-of-many-photos-the.jpg" alt="NATURE">
+            <div class="caption">
+                <h3>NATURE AND ADVENTURE</h3>
+                <p>Beautiful landscapes.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/13/08/bf/f5/weekend-specials.jpg" alt="FOOD">
+            <div class="caption">
+                <h3>FOOD</h3>
+                <p>Foodblog for kitchen lovers.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://www.signupgenius.com/cms/images/nonprofit/fundraising-gala-theme-ideas-article-600x400.jpg" alt="EVENTS">
+            <div class="caption">
+                <h3>EVENTS</h3>
+                <p>Memories in a picture.</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://media.istockphoto.com/id/637201720/photo/woman-walking-on-beach-at-sunrise.webp?b=1&s=170667a&w=0&k=20&c=3fH7xi2qcEbuSeaiGFtv3Uyw5vLjedxX-Kh2syxyJj0=" alt="PERSONAL">
+            <div class="caption">
+                <h3>PERSONAL</h3>
+                <p>Life-time diary.</p>
+            </div>
+          </div>
+    </div>
+</body>
+
+         <style>
+     .about {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+            border-radius: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+         
+            .flipping-images {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .flipping-image {
+            width: 250px;
+            height: 300px;
+            perspective: 1000px;
+        }
+
+        .flipping-image:hover .flipper {
+            transform: rotateY(180deg);
+        }
+
+        .flipper {
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+
+        .flipper .front,
+        .flipper .back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            border-radius: 8px;
+        }
+
+        .flipper .front {
+            background: url('https://i.pinimg.com/736x/fa/7a/51/fa7a51886a0e65f54af76e8c3240fad8.jpg') center/cover;
+        }
+
+        .flipper .back {
+            background: url('https://images.unsplash.com/photo-1545461114-59f901433b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8MTA0NzUyODl8fGVufDB8fHx8fA%3D%3D&w=1000&q=80') center/cover;
+            transform: rotateY(180deg);
+        }
+       
+    </style>
+<body>
+
+    <header>
+        <h1>About us</h1>
+    </header>
+    <div class="about">
+        <h2>About Us</h2>
+
+        <p>WHERE CREATIVITY MEETS EXPERTS, WE ARE A PASSIONATE TEAM DEDICATED TO BRINGING YOUR VISION TO LIFE.</p>
+        <p>ALL MEMORIES MATTER</P>
+        <div class="flipping-images">
+        <div class="flipping-image">
+            <div class="flipper">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+
+        <div class="flipping-image">
+            <div class="flipper">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="flipping-image">
+        <div class="caption">
+                        <h3>OUR MISSION</h3>
+                        <P>CAPTURE</P>
+                        <P>KEEP</P>
+                        <P>RETRIVE</P>
+                        
+            <div class="flipper">
+                <div class="front"></div>
+                <div class="back"></div>
+             </div>
+                </div>
+              </div>  
+        </div>
+    </body>
+ <span class="inline-element">FIND US ON:.</span>
+ <a class="inline-element" href="#">instagram #epicphotography.</a>
+ <a class="inline-element" href="#">twitter @epicphotography.</a>
+
+</body>
+</html>

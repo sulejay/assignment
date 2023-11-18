@@ -1,0 +1,74 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url('city 1.JPG');
+	
+}
+.sign-in{
+    background-image: url('city 2.JPG');
+    width:30%;
+    margin:auto;
+    margin-top:100px;
+
+    height: relative;
+    margin-bottom: 20px;
+    border-radius: 10%;
+
+}
+.header{
+	padding: 20px;
+}
+.info{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.dtxt{
+	padding: 20px;
+}
+.dpass{
+	padding: 20px;
+	padding-top: none;
+}
+.txt
+{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: red;
+	
+}
+.address
+{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: red;
+	border-bottom-width: 90%;
+	
+}
+.registration number
+{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.btn{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 85%;
+
+	color:white;
+	background-color: #be9b7b;
+}
+.f{
+	margin-left: 80px;
+
+}
+.dreg{
+	padding: 20px;
+	padding-left: 90px;
+}
+{
+</body>
+
